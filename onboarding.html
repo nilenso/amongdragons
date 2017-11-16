@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>amongdragons</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Rajdhani" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <section class="header">
+      <h1>amongdragons</h1>
+      <img src="./dragon.png" alt="trogdor" />
+    </section>
+
+    <section class="onboarding">
+      <h3>Sign up</h3>
+      <p class="description">
+	Go to <your-subdomain>.amongdragons.com, and sign-up using your email. Your username could be your firstname, or a nickname.
+      </p>
+      <video id="sign-up-video" width="50%" autoplay loop>
+	<source src="images/sign-up.mp4" type="video/mp4" />
+	Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section class="onboarding">
+      <h3>Create your first team</h3>
+      <p class="description">
+	Use the name of your organization, or team within organization to create a new team. You could use the same name in the URL, or use a shorter version of it.
+      </p>
+      <video id="create-team-video" width="50%" autoplay loop>
+	<source src="images/create-team.mp4" type="video/mp4" />
+	Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section class="onboarding">
+      <h3>Follow the tutorial</h3>
+      <p class="description">
+	Mattermost has an inbuilt tutorial to familiarize you to it's interface. If you're new to it, it's probably worth reading through these once to get a quick start.
+      </p>
+      <video id="tutorial-video" width="80%" autoplay loop>
+	<source src="images/tutorial.mp4" type="video/mp4" />
+	Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <script>
+      document.getElementById("sign-up-video").playbackRate=2;
+      document.getElementById("create-team-video").playbackRate=2;
+      document.getElementById("tutorial-video").playbackRate=2;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+body {
+    margin: 2% auto;
+    max-width: 800px;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2%;
+    border-bottom: 1px dotted;
+}
+
+.onboarding img {
+    width: 60%;
+}
